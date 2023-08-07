@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Briana Davis - Web Developer</title>
@@ -12,20 +12,22 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato&family=Schibsted+Grotesk&family=Space+Grotesk&display=swap"
         rel="stylesheet">
-        <script src="https://kit.fontawesome.com/5fcb49cff4.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5fcb49cff4.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </head>
 
 <body>
 
     <!-- NAV BAR -->
     <header>
-        <nav class="navbar">
+        <nav class="navbar" id="myTopnav">
             <ul>
-                <li class="logo"><i class="fa-regular fa-circle"></i></li>
-                <li><a href="#">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><button class="lightDarkTheme"><i class="fa-solid fa-circle-half-stroke"></i></button></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+                        <i class="fa fa-bars"></i>
+                    </a></li>
             </ul>
         </nav>
     </header>
@@ -40,7 +42,8 @@
         <p class="aboutme2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eligendi enim facilis
             aspernatur maiores doloremque recusandae fugiat illo eveniet ratione beatae iure porro, eos quibusdam,
             officiis commodi at itaque nostrum?</p>
-        <p class="aboutme3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p class="aboutme3"><a href="about.html">See more about me <i class="fa-solid fa-arrow-right fa-fade"
+                    style="color: #000000;"></i></a></p>
     </main>
 
 

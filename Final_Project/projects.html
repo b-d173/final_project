@@ -6,26 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Briana Davis - Web Developer</title>
     <link rel="stylesheet" href="./projects.css">
-    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Lato&family=Schibsted+Grotesk&family=Space+Grotesk&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/5fcb49cff4.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </head>
 
 <body>
 
     <!-- NAV BAR -->
     <header>
-        <nav class="navbar">
+        <nav class="navbar" id="myTopnav">
             <ul>
-                <li class="logo"><i class="fa-regular fa-circle"></i></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li class="lightDarkTheme"><i class="fa-solid fa-circle-half-stroke"></i></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+                        <i class="fa fa-bars"></i>
+                    </a></li>
             </ul>
         </nav>
     </header>

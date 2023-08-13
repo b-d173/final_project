@@ -6,33 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Briana Davis - Web Developer</title>
     <link rel="stylesheet" href="./projects.css">
-    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Lato&family=Schibsted+Grotesk&family=Space+Grotesk&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/5fcb49cff4.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </head>
 
 <body>
 
     <!-- NAV BAR -->
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li class="logo"><i class="fa-regular fa-circle"></i></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li class="lightDarkTheme"><i class="fa-solid fa-circle-half-stroke"></i></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul>
+            <li class="nav-item"><a href="./index.html">Home</a></li>
+            <li class="nav-item"><a href="./contact.html">Contact</a></li>
+            <li class="nav-item"><button class="btn" onclick="darkTheme()"><i class="fa-solid fa-circle-half-stroke"
+                        alt="Toggle Light Dark Mode"></i></button></li>
+        </ul>
+    </nav>
 
     <!-- MAIN - PROJECT GRID -->
 
-    <h1 class="title">Projects</h1>
+    <h1 class="maintitle">Projects</h1>
 
     <main class="project-grid-container">
 
@@ -43,7 +41,9 @@
                 <img src="Images/360_F_505049883_5nNmMzKVfsZz9f5AAuJLKFduBjD6ft9e.jpeg" alt="Project">
             </div>
             <ul class="project-info">
-                <li class="project-title"><h3>Javascript Traffic Light</h3></li>
+                <li class="project-title">
+                    <h3>Javascript Traffic Light</h3>
+                </li>
                 <li class="project-description"> An interactive traffic light made with Javascript.
                 </li>
             </ul>
@@ -56,7 +56,9 @@
                 <img src="Images/Screen Shot 2023-08-07 at 12.45.38 pm.png" alt="Project">
             </div>
             <ul class="project-info">
-                <li class="project-title"><h3>Real Estate Website</h3></li>
+                <li class="project-title">
+                    <h3>Real Estate Website</h3>
+                </li>
                 <li class="project-description"> A mock up real estate website displaying utilising CSS grid.
                 </li>
             </ul>
@@ -69,7 +71,9 @@
                 <img src="Images/Screen Shot 2023-08-07 at 12.53.51 pm.png" alt="Project">
             </div>
             <ul class="project-info">
-                <li class="project-title"><h3>To-Do List App</h3></li>
+                <li class="project-title">
+                    <h3>To-Do List App</h3>
+                </li>
                 <li class="project-description"> A simple to-do list app.
                 </li>
             </ul>

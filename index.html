@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>  
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Briana Davis - Web Developer</title>
+    <title>Briana Davis - Junior Web Developer</title>
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,45 +19,41 @@
 <body>
 
     <!-- NAV BAR -->
-    <header>
-        <nav class="navbar" id="myTopnav">
-            <ul>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li><a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
-                        <i class="fa fa-bars"></i>
-                    </a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul>
+            <li class="nav-item"><a href="./projects.html">Projects</a></li>
+            <li class="nav-item"><a href="./contact.html">Contact</a></li>
+            <li class="nav-item"><button class="btn" onclick="darkTheme()"><i class="fa-solid fa-circle-half-stroke"
+                        alt="Toggle Light Dark Mode"></i></button></li>
+        </ul>
+    </nav>
 
     <!-- MAIN -->
 
     <main>
-        <h1 class="title">I'm Briana Davis, Web Developer and <span class="rotatingtext">FILLERTEXT</span></h1>
-        <p class="aboutme1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut iure totam error quas
-            explicabo saepe eveniet, incidunt esse, aliquam veritatis, officia id? Tempora voluptatibus quasi maiores
-            dolor dolore quis sed?</p>
-        <p class="aboutme2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eligendi enim facilis
-            aspernatur maiores doloremque recusandae fugiat illo eveniet ratione beatae iure porro, eos quibusdam,
-            officiis commodi at itaque nostrum?</p>
-        <p class="aboutme3"><a href="about.html">See more about me <i class="fa-solid fa-arrow-right fa-fade"
-                    style="color: #000000;"></i></a></p>
+        <h1 class="maintitle">I'm Briana Davis, Junior Web Developer</h1>
+        <p class="aboutme1"> Hello! I'm a newly trained junior web developer eager to leave my mark in the digital
+            world. With a strong foundation in web development and the latest coding languages, I'm excited to apply my
+            skills to create dynamic, user-friendly websites. I'm passionate about solving problems and constantly
+            learning to keep up with evolving web technologies.</p>
+        <p class="aboutme2">My journey into web development is a fusion of creativity and functionality. Prior to
+            coding, I explored various creative avenues like design and music, shaping my well-rounded perspective. Now,
+            as a junior web developer, my mission is to combine creativity with technical expertise, crafting
+            captivating digital experiences. Join me on this adventure as I contribute dedication, fresh ideas, and a
+            collaborative spirit to build impactful online solutions.</p>
+        <p class="aboutme3"><a href="contact.html">Get in touch <i class="fa-solid fa-arrow-right fa-fade"
+                    id="arrow"></i></a></p>
+        <ul class="social-links">
+            <li><a href="https://github.com/"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
     </main>
 
 
     <!-- FOOTER -->
 
-    <footer>
-        <div class="footerlinks">
-            <ul>
-                <li><a href="https://github.com/"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
-            </ul>
-        </div>
-    </footer>
+
 
 </body>
 

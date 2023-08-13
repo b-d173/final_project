@@ -1,8 +1,16 @@
-function hamburgerMenu() {
-    var x = document.querySelector("myTopnav");
-    if (x.className === "navbar") {
-      x.className += " responsive";
-    } else {
-      x.className = "navbar";
-    }
-  }
+
+
+// html, event listener, function
+
+
+function darkTheme() {
+  var body = document.body;
+  body.classList.toggle("dark-mode");
+}
+
+// var hamburgerIcon = document.querySelector('#hamburgericon')
+// hamburgerIcon.addEventListener('click', showHamburgerMenu) 
+
+//   function showHamburgerMenu() {
+//     console.log('hello')
+//   }

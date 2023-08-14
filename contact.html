@@ -19,37 +19,35 @@
 <body>
 
     <!-- NAV BAR -->
-    <header>
-        <nav class="navbar" id="myTopnav">
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
-                        <i class="fa fa-bars"></i>
-                    </a></li>
-            </ul>
-        </nav>
-    </header>
+
+    <nav>
+        <ul>
+            <li class="nav-item"><a href="./index.html">Home</a></li>
+            <li class="nav-item"><a href="./contact.html">Contact</a></li>
+            <li class="nav-item"><button class="btn" onclick="darkTheme()"><i class="fa-solid fa-circle-half-stroke"
+                        alt="Toggle Light Dark Mode"></i></button></li>
+        </ul>
+    </nav>
 
     <!-- MAIN -->
 
     <main>
         <div class="container">
-            <form action="#">
-          
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name..">
-          
-              <label for="email">Email</label>
-              <input type="text" id="email" name="email" placeholder="Your email..">
-          
-              <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
+            <form name="contactForm" onsubmit="return validateForm()">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="fname" placeholder="Your name..">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="femail" placeholder="Your email..">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="fmessage" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
             </form>
-          </div>
+        </div>
     </main>
 
 

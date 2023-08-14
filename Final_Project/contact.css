@@ -29,15 +29,17 @@ nav ul {
 
 /* FORM */
 
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px; 
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
 }
 
 input[type=submit] {
@@ -86,7 +88,7 @@ a {
 }
 
 a:hover {
-  color:  rgb(73, 73, 73);
+  color: rgb(73, 73, 73);
 }
 
 a::before {
@@ -160,98 +162,3 @@ footer li {
   display: inline-block;
   padding: 0 20px;
 }
-
-
-
-
-/* body {
-    font-family: 'Lato', sans-serif;
-}
-
-header li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px;
-}
-
-header {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.title {
-    font-family: 'Space Grotesk', sans-serif;
-}
-
-a {
-    color: black;
-}
-
-footer li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px;
-}
-
-/* RESPONSIVE NAV BAR
-
-.navbar {
-    overflow: hidden;
-  }
-  
-  .navbar a:hover {
-    color: #ddd;
-  }
-  
-  .navbar .icon {
-    display: none;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .navbar a:not(:first-child) {display: none;}
-    .navbar a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .navbar.responsive {position: relative;}
-    .navbar.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .navbar.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
-
-
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc;
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-  input[type=submit] {
-    background-color: #9d9d9d;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
